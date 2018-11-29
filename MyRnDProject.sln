@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TPL", "TPL", "{DDD10628-57C5-4008-8570-5638C0858E69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL.Lib", "TPL.Lib\TPL.Lib.csproj", "{E7D0496D-D2EE-48EF-9C83-AF991C5C1131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL.Winforms", "TPL.Winforms\TPL.Winforms.csproj", "{A3607D50-328B-4AA8-9AFB-D45D13A881CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7D0496D-D2EE-48EF-9C83-AF991C5C1131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D0496D-D2EE-48EF-9C83-AF991C5C1131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D0496D-D2EE-48EF-9C83-AF991C5C1131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D0496D-D2EE-48EF-9C83-AF991C5C1131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3607D50-328B-4AA8-9AFB-D45D13A881CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3607D50-328B-4AA8-9AFB-D45D13A881CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3607D50-328B-4AA8-9AFB-D45D13A881CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3607D50-328B-4AA8-9AFB-D45D13A881CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7D0496D-D2EE-48EF-9C83-AF991C5C1131} = {DDD10628-57C5-4008-8570-5638C0858E69}
+		{A3607D50-328B-4AA8-9AFB-D45D13A881CA} = {DDD10628-57C5-4008-8570-5638C0858E69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEC1F8FE-9C27-454D-B3A5-F677285E0236}
+	EndGlobalSection
+EndGlobal
